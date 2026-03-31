@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nexo Constructora | Arquitectura & Edificación</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container nav-container">
+        <a href="#" class="logo logo-box">
+          <div class="logo-icon">
+            <i data-lucide="building-2"></i>
+          </div>
+          <span class="text-xl font-bold text-wood-900">Nexo Constructora</span>
+        </a>
+
+        <ul class="nav-links">
+          <li><a href="#hero">Inicio</a></li>
+          <li><a href="#nosotros">La Empresa</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#proyectos">Obras</a></li>
+          <li><a href="#location">Oficinas</a></li>
+          <li><a href="#contacto" class="btn-primary">Presupuestar</a></li>
+        </ul>
+
+        <div class="hamburger">
+          <i class="fas fa-bars"></i>
+        </div>
+      </div>
+    </nav>
+
+    <header id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content" data-aos="fade-up">
+        <h1>Construimos el futuro sobre bases sólidas</h1>
+        <p>
+          Liderazgo en proyectos civiles, industriales y residenciales con llave
+          en mano y los más altos estándares de calidad.
+        </p>
+        <br />
+        <a href="#proyectos" class="btn-hero">Ver Portfolio de Obras</a>
+      </div>
+    </header>
+
+    <section id="nosotros" class="section">
+      <div class="container">
+        <div class="about-grid">
+          <div class="about-image" data-aos="fade-right">
+            <img
+              src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?q=80&w=1000"
+              alt="Obra en construcción Savam"
+            />
+            <div class="experience-badge">
+              <span>+15</span>
+              Años Construyendo
+            </div>
+          </div>
+
+          <div class="about-content" data-aos="fade-left">
+            <span class="subtitle">Compromiso y Solidez</span>
+            <h2
+              class="section-title"
+              style="text-align: left; margin-bottom: 20px"
+            >
+              Excelencia Constructiva en Cada Detalle
+            </h2>
+
+            <p>
+              En <strong>Savam Constructora</strong>, transformamos planos en
+              realidades tangibles. Nos especializamos en la ejecución integral
+              de obras, fusionando ingeniería de precisión con una gestión
+              eficiente de recursos para garantizar plazos y presupuestos.
+            </p>
+
+            <div class="about-features">
+              <h3 style="color: var(--primary-color); margin-bottom: 15px">
+                Innovación y Seguridad Estructural
+              </h3>
+              <p style="margin-bottom: 20px">
+                Acompañamos a nuestros clientes desde la nivelación del terreno
+                hasta la entrega final, cumpliendo rigurosamente con las
+                normativas vigentes.
+              </p>
+
+              <div class="feature-item">
+                <i class="fas fa-hard-hat"></i>
+                <span
+                  ><strong>Gestión Integral:</strong> Modalidad llave en mano
+                  para su tranquilidad.</span
+                >
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-drafting-table"></i>
+                <span
+                  ><strong>Arquitectura:</strong> Diseño funcional y estético
+                  adaptado a su necesidad.</span
+                >
+              </div>
+              <div class="feature-item">
+                <i class="fas fa-shield-alt"></i>
+                <span
+                  ><strong>Calidad:</strong> Materiales premium y mano de obra
+                  especializada.</span
+                >
+              </div>
+            </div>
+            <a
+              href="https://wa.me/?text=Hola!%20Solicito%20una%20entrevista%20técnica."
+              class="btn-consultar"
+              target="_blank"
+            >
+              Solicitar Entrevista
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="servicios" class="section">
+      <div class="container text-center">
+        <h2 class="section-title">Nuestras Soluciones</h2>
+
+        <div class="services-grid">
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="100">
+            <i class="fas fa-home"></i>
+            <h3>Obras Residenciales</h3>
+            <p>
+              Construcción de viviendas unifamiliares y complejos
+              habitacionales.
+            </p>
+          </div>
+
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="200">
+            <i class="fas fa-city"></i>
+            <h3>Obras Comerciales</h3>
+            <p>Desarrollo de locales, oficinas y galpones industriales.</p>
+          </div>
+
+          <div class="service-card" data-aos="zoom-in" data-aos-delay="300">
+            <i class="fas fa-tools"></i>
+            <h3>Refacciones</h3>
+            <p>Ampliaciones y remodelaciones de alta complejidad técnica.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proyectos" class="section bg-light">
+      <div class="container">
+        <h2 class="section-title">Obras Destacadas</h2>
+
+        <div class="carousel-container">
+          <div class="carousel-track" id="track">
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?q=80&w=800"
+                alt="Vivienda Moderna"
+              />
+              <div class="card-body">
+                <h3>Vivienda Unifamiliar</h3>
+                <p class="price">Barrio Los Olivos</p>
+                <p>
+                  320m² de construcción tradicional con terminaciones de lujo.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?q=80&w=800"
+                alt="Edificio Corporativo"
+              />
+              <div class="card-body">
+                <h3>Complejo de Oficinas</h3>
+                <p class="price">Centro Industrial</p>
+                <p>
+                  Estructura metálica y piel de vidrio de última generación.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=800"
+                alt="Ampliación"
+              />
+              <div class="card-body">
+                <h3>Remodelación Total</h3>
+                <p class="price">Residencia Histórica</p>
+                <p>
+                  Puesta en valor y modernización de instalaciones integrales.
+                </p>
+              </div>
+            </div>
+
+            <div class="card">
+              <img
+                src="https://involucrasl.es/wp-content/uploads/2019/10/construccion_nave_industrial_1-1024x682.jpg"
+                alt="Galpón"
+              />
+              <div class="card-body">
+                <h3>Nave Industrial</h3>
+                <p class="price">Zona Logística</p>
+                <p>
+                  1200m² con pavimentos de alta resistencia y logística
+                  optimizada.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="faq" class="section">
+      <div class="container">
+        <h2 class="section-title">Preguntas Frecuentes</h2>
+        <div class="faq-accordion">
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question">
+              <span
+                ><i class="fas fa-hard-hat"></i> ¿Trabajan bajo la modalidad
+                "Llave en mano"?</span
+              >
+              <i class="fas fa-chevron-down arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Sí, nos encargamos de todo el proceso: desde la gestión de
+                planos y permisos municipales hasta la pintura final y limpieza
+                de obra. Usted solo recibe las llaves lista para mudarse.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question">
+              <span
+                ><i class="fas fa-calendar-alt"></i> ¿Cuáles son los plazos
+                promedio de obra?</span
+              >
+              <i class="fas fa-chevron-down arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Depende de la magnitud del proyecto. Una vivienda unifamiliar de
+                120m² suele demorar entre 8 y 10 meses. Entregamos un cronograma
+                de avance de obra por contrato para su tranquilidad.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question">
+              <span
+                ><i class="fas fa-calculator"></i> ¿Realizan presupuestos sin
+                cargo?</span
+              >
+              <i class="fas fa-chevron-down arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                Realizamos una primera estimación de costos por metro cuadrado
+                sin cargo. Para un presupuesto detallado (cómputo y
+                presupuesto), se requiere una visita al terreno y una entrevista
+                técnica.
+              </p>
+            </div>
+          </div>
+
+          <div class="faq-item" data-aos="fade-up">
+            <button class="faq-question">
+              <span
+                ><i class="fas fa-shield-alt"></i> ¿Qué garantías ofrecen sobre
+                la obra?</span
+              >
+              <i class="fas fa-chevron-down arrow"></i>
+            </button>
+            <div class="faq-answer">
+              <p>
+                NEXO ofrece garantía estructural certificada. Además, realizamos
+                visitas de control a los 6 y 12 meses de finalizada la obra para
+                verificar el correcto asentamiento de la estructura.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="location" class="location-section">
+      <div class="container">
+        <div class="location-header">
+          <h2 class="section-title">Oficinas Centrales</h2>
+          <center>
+            <p>
+              Visitenos para coordinar una reunión técnica con nuestros
+              ingenieros.
+            </p>
+          </center>
+        </div>
+
+        <div class="location-content">
+          <div class="location-info">
+            <div class="info-box">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Dirección</h4>
+                <p>Av. San Lorenzo 1910<br />Isidro Casanova, Buenos Aires</p>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <i class="far fa-clock"></i>
+              <div>
+                <h4>Atención Comercial</h4>
+                <p>Lunes a Viernes: 9:00 - 18:00 hs</p>
+                <p>Sábados: Turnos programados</p>
+              </div>
+            </div>
+
+            <a
+              href="https://wa.me/54911XXXXXXXX?text=Hola!%20Quiero%20agendar%20una%20visita."
+              class="btn-white"
+              target="_blank"
+            >
+              Agendar Visita
+            </a>
+          </div>
+
+          <div class="map-wrapper" data-aos="zoom-out">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3280.967175249514!2d-58.5626245!3d-34.6806547!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcc63032549223%3A0xc346452296d9f82d!2sAv.%20Cristian%C3%ADa%202352%2C%20B1765%20Isidro%20Casanova%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1700000000000!5m2!1ses-419!2sar"
+              width="100%"
+              height="100%"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            >
+            </iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <div class="logo logo-box" style="margin-bottom: 15px">
+            <div class="logo-icon-bg">
+              <i data-lucide="building-2"></i>
+            </div>
+            <span class="text-xl font-bold" style="color: white"
+              >Nexo Constructora</span
+            >
+          </div>
+          <p>Solidez y confianza en cada m² construido desde 2011.</p>
+        </div>
+
+        <div class="footer-nav">
+          <h3>Navegación</h3>
+          <ul>
+            <li><a href="#hero">Inicio</a></li>
+            <li><a href="#nosotros">Empresa</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#proyectos">Obras</a></li>
+            <li><a href="#location">Ubicación</a></li>
+          </ul>
+        </div>
+
+        <section id="contacto">
+          <div class="footer-contact">
+            <h3>Contacto Directo</h3>
+
+            <p>
+              <a href="tel:+541112345678">
+                <i class="fas fa-phone-alt"></i> +54 11 XXXX-XXXX
+              </a>
+            </p>
+
+            <p>
+              <a href="mailto:obras@nexoconstructora.com">
+                <i class="fas fa-envelope"></i> obras@nexoconstructora.com
+              </a>
+            </p>
+
+            <p>
+              <a href="#" target="_blank">
+                <i class="fas fa-map-marker-alt"></i>Av. San Lorenzo 1910,
+                BS.AS.
+              </a>
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© 2026 Nexo Constructora. Expertos en Ingeniería & Arquitectura.</p>
+      </div>
+    </footer>
+
+    <a href="https://wa.me" class="whatsapp-float" target="_blank">
+      <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+    <script>
+      lucide.createIcons();
+    </script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script>
+      window.addEventListener("load", function () {
+        AOS.init({
+          duration: 900,
+          once: false,
+          offset: 80,
+        });
+      });
+    </script>
+  </body>
+</html>
