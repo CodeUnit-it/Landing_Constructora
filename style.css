@@ -55,10 +55,15 @@ body {
   position: fixed;
   width: 100%;
   top: 0;
+  left: 0; /* <-- agrega esto */
+  right: 0; /* <-- y esto */
   z-index: 1000;
 }
 
 .nav-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 0 20px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -690,12 +695,21 @@ body {
     padding: 0 15px;
   }
 
+  .logo-box {
+    flex: 1; /* ocupa todo el lado izquierdo */
+    min-width: 0;
+  }
+
   .logo-box span {
     font-size: 1rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis; /* si el nombre es largo, se corta con ... */
   }
 
   .hamburger {
     display: block;
+    margin-left: 8px; /* un pequeño margen a la derecha del logo */
   }
 
   .nav-links {
